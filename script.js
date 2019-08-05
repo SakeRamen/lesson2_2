@@ -24,5 +24,15 @@ console.log(c);
 d = [-1,6,3,9,0,-5,-3,2];
 console.log(d.reverse());
 console.log(d.sort());
+let t = 5;
+console.log(t>10 ? '>10' : '<10');
 
+function man(name, age){
+	this.name = name;
+	this.age = age;
+}
 
+let alice = new man('Alice',19);
+let bob = new man('Bob', 23);
+
+console.log(alice, bob);
